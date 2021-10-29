@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a06dfea2.chunk.css",
+    "main.js": "/static/js/main.7d7e11f7.chunk.js",
+    "main.js.map": "/static/js/main.7d7e11f7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8a0203b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8a0203b.js.map",
+    "static/js/2.588efaa8.chunk.js": "/static/js/2.588efaa8.chunk.js",
+    "static/js/2.588efaa8.chunk.js.map": "/static/js/2.588efaa8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a06dfea2.chunk.css.map": "/static/css/main.a06dfea2.chunk.css.map",
+    "static/js/2.588efaa8.chunk.js.LICENSE.txt": "/static/js/2.588efaa8.chunk.js.LICENSE.txt",
+    "static/media/caba.4c92758c.png": "/static/media/caba.4c92758c.png",
+    "static/media/florCadelli.1ce2de68.jpg": "/static/media/florCadelli.1ce2de68.jpg",
+    "static/media/florCadelli.a2f5c7ea.png": "/static/media/florCadelli.a2f5c7ea.png",
+    "static/media/frontend.e754ff3b.png": "/static/media/frontend.e754ff3b.png",
+    "static/media/index.css": "/static/media/maderaOK.c0a05872.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8a0203b.js",
+    "static/js/2.588efaa8.chunk.js",
+    "static/css/main.a06dfea2.chunk.css",
+    "static/js/main.7d7e11f7.chunk.js"
+  ]
+}
