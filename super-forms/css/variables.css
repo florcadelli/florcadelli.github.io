@@ -1,0 +1,11 @@
+/* Scope Global */
+:root{
+    --colorPrincipal: #00669F;
+    --colorSecundario:#1CD1B0;
+    --colorTerciario:#001D2D;
+    --colorValidacionOk: #a8d9f7;
+    --colorFondo:#F3F3F3;
+    --colorSombra:rgba(151, 148, 148, 0.8);
+    --medidaAnchoCard: 20%;
+    --medidaAltoCard: 300px;
+}

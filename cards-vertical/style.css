@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0px;
+    box-sizing: border-box;
+    /* background-color: red; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+ 
+.descuentos{
+    background:#1CD1B0 ;
+    padding-left:2.1%;
+    font-size:24px;
+}
+header{
+    position:sticky;
+    top:0px;
+    z-index:999;
+    background: #00669F;
+    padding:2%;
+    color:white;
+    /* font-size:26px; */
+    /* font-weight: 600; */
+    box-shadow: 0px 4px 6px rgba(151, 148, 148, 0.8);
+    }
+
+main section .tarjeta{
+    width: 30%;
+    /* border: 1px solid red; */
+    margin:auto;
+    margin-top:30px;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    box-shadow: 2px 2px 3px rgba(151, 148, 148, 0.8);
+}
+main section .tarjeta .fondo1{
+    /* background-color: red; */
+    background-image: url("./img/bg-batman.jpg");
+    background-size:  100%;
+    height: 230px;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    padding:20px;
+}
+main section .tarjeta .fondo2{
+    /* background-color: red; */
+    background-image: url("./img/bg-wonderw.jpg");
+    background-size:  100%;
+    height: 230px;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    padding:20px;
+}
+main section .tarjeta .fondo3{
+    /* background-color: red; */
+    background-image: url("./img/bg-superman.jpg");
+    background-size:  100%;
+    height: 230px;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    padding:20px;
+}
+main section .tarjeta i{
+    color: #CC2424;
+    font-size: 40px;
+}
+/* main section .tarjeta .fondo1 .corazon{
+    border: 1px solid red;
+    width:10%;
+    margin:5%;
+} */
+main section .tarjeta .perfil{
+    /* border: 1px solid green; */
+    background: #F3F3F3;
+
+ 
+}
+main section .tarjeta .perfil .batman{
+    width: 50%;
+    margin:auto;
+    position:relative;
+    bottom:100px;
+}
+main section .tarjeta .perfil img{
+    width: 100%;
+    border-radius: 50%;
+}
+main section .tarjeta .perfil h2{
+    width:30%;
+    /* border:1px solid red; */
+    margin:auto;
+    position:relative;
+    bottom:80px;
+    font-size:28px;
+}
+main section .tarjeta .perfil p{
+    width:90%;
+    /* border:1px solid red; */
+    margin:auto;
+    position:relative;
+    bottom:60px;
+    font-size:22px;
+}
+main section .tarjeta .perfil .boton {
+    background: #00669F;
+    width:30%;
+    height: 50px;
+    /* border:1px solid red; */
+    margin:auto;
+    position:relative;
+    bottom:30px;
+    font-size:22px;
+    padding: 3% 4% 4% 4%;
+    /* padding-left:4%;
+    padding-right:4%;
+    padding-bottom:4%; */
+    border-radius:3px;
+}
+main section .tarjeta .perfil .boton a{
+    color:white;
+    text-decoration: none;
+    /* border:1px solid red; */
+}
+main section .mas{
+    background: #00669F;
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    padding:30px;
+    border-radius: 50%;
+    color:white;
+    position:absolute;
+    left:1120px;
+    top:1220px;
+}
+.fondo_footer{
+    margin-top:30px;
+    background: #00669F;
+    height: 50px;
+    color:white;
+    padding-top: 1%;
+}
+.fondo_footer p{
+    box-sizing: inline;
+    margin:auto;
+    /* border:1px solid red; */
+    width:26%;
+}
+

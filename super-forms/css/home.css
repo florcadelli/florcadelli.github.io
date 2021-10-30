@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* background-color: red; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+ body{
+     width: 100vw;
+ }
+.descuentos{
+    background: var(--colorSecundario) ;
+    padding-left:2.1%;
+    font-size:20px;
+    padding: 5px 5px 5px 20px;
+}
+header{
+    display: inline-block;
+    position:sticky;
+    top:0px;
+    z-index:999;
+    background: var(--colorPrincipal);
+    color:white;
+    box-shadow: 0px 4px 6px var(--colorSombra);
+    width:100%;
+
+    }
+   
+    header  img{
+        /* border:1px solid violet; */
+        margin-left:2%;
+        position:relative;
+        top:10px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        width: 6%;
+    }
+    header  h1{
+        /* border:1px solid red; */
+       margin-left:3%;
+       display: inline-block;
+       position:relative;
+       bottom:20px;
+    }
+    header nav{
+            background-color: var(--colorTerciario);
+            text-align: right;
+            height: 40px;
+            padding-right: 10px;
+            display: inline-block; 
+            width: 100%;  
+            margin:0px;  
+            padding:0px;
+    }
+    header nav ul{
+        margin:0px;  
+        padding:0px;
+        list-style: none;
+        width: 100%;
+        /* border:1px solid yellow; */
+        margin-top:10px;
+        padding-right: 40px; 
+    }
+    header nav ul li{
+        display: inline;
+        width: 20%;
+        /* border:1px solid red; */
+        margin-right: 20px;
+    }
+    header nav ul li a{
+        color:white;
+        text-decoration: none;
+    }
+/* main{
+    height: 100vh;
+} */
+main section{
+    text-align: center;
+    position: relative;
+}
+input{
+    outline:none;
+}
+input:invalid{
+   border:1px solid red;
+}
+
+/*NO ME TOMA EL INVALID*/
+
+textarea{
+    outline:none;
+}
+select{
+    outline:none;
+}
+
+main section .tarjeta{
+    display:inline-block;
+    width: var(--medidaAnchoCard);
+    /* height: var( --medidaAltoCard); */
+    /* border: 1px solid red; */
+    margin-top:30px;
+    margin: 30px 10px 30px 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    box-shadow: 2px 2px 3px var(--colorSombra);
+    
+}
+main section .tarjeta:hover{
+    position:relative;
+    bottom: 15px;
+}
+main section .tarjeta .fondo1{
+    /* background-color: red; */
+    background-image: url("../img/bg-batman.jpg");
+    background-size:  100%;
+    height: 150px;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    padding:20px;
+}
+main section .tarjeta .fondo2{
+    /* background-color: red; */
+    background-image: url("../img/bg-wonderw.jpg");
+    background-size:  100%;
+    height: 150px;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    padding:20px;
+}
+main section .tarjeta .fondo3{
+    /* background-color: red; */
+    background-image: url("../img/bg-superman.jpg");
+    background-size:  100%;
+    height: 150px;
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    padding:20px;
+}
+main section .tarjeta i{
+    color: #CC2424;
+    font-size: 30px;
+    /* border:1px solid red; */
+    padding-right: 80%;
+}
+
+main section .tarjeta .perfil{
+    border: 1px solid #F3F3F3;
+    background: var(--colorFondo);
+    text-align: center;
+}
+
+main section .tarjeta .perfil .info{
+    width: 40%;
+    margin:auto;
+    position:relative;
+    bottom:100px;
+    /* border: 1px solid green; */
+}
+main section .tarjeta .perfil .info img{
+    width: 100%;
+    border-radius: 50%;
+    position:absolute;
+    top: 40px;
+    right:0% ;
+    /* border: 1px solid violet; */
+    /* bottom: 10% */
+}
+main section .tarjeta .perfil h2{
+    width:100%;
+    /* border:1px solid red; */
+    text-align: center;
+    margin-top: 55px;
+    padding-top: 0px;
+}
+main section .tarjeta .perfil p{
+    width:100%;
+    text-align: center;
+    padding: 10px;
+}
+main section .tarjeta .perfil .boton {
+    background: var(--colorPrincipal);
+    width:35%;
+    height: 40px;
+    /* border:1px solid red; */
+    margin:auto;
+    /* position:relative;
+    bottom:30px; */
+    font-size:18px;
+    padding: 3% 4% 4% 4%;
+    border-radius:3px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+main section .tarjeta .perfil .boton:hover{
+    background-color: var(--colorTerciario);
+}
+main section .tarjeta .perfil a{
+    color:white;
+    text-decoration: none;
+    /* border:1px solid red; */
+}
+main section .mas{
+    background: var(--colorPrincipal);
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding:15px;
+    border-radius: 50%;
+    color:white;
+    position:absolute;
+    left:1250px;
+    top:220px;
+}
+/* footer{
+    position:sticky;
+    bottom:0px;
+} */
+.fondo_footer{
+    margin-top:30px;
+    background: var(--colorPrincipal);
+    height: 50px;
+    color:white;
+    padding-top: 1%;
+    text-align: center;
+}
+.mas a{
+    color:white;
+}
+.mas:hover{
+    background-color: var(--colorTerciario);
+}
+
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen Flor Cadelli</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+     <!-- =============HEADER================= -->
+    <header>
+      <div class="cabecera">
+        <h2>Grandes ofertas en comederos</h2>
+        <div>
+        <form action="" method="POST">
+        <label for="idioma"></label>
+          <select class="renglon" id="idioma" required>
+              <option value="Es">Español</option>
+              <option value="En">English</option>
+              <option value="Fr">French</option>
+          </select>
+        <label for="moneda"></label>
+          <select class="renglon" id="moneda" required>
+              <option value="$">Arg$</option>
+              <option value="u$s">us$</option>
+          </select>
+          </form>
+        </div>
+      </div>
+
+      <div class="principal">
+      <div class="titulo">
+        <img src="img/Cat.png" alt="Gato" />
+        <h1><span>Front</span>Cat&Dog</h1>
+        <img src="img/Dog.png" alt="Perro" />
+      </div>
+      <!-- menu hamburguesa -->
+      <i class="fas fa-bars kangrebur"></i>
+      <!-- nav -->
+      <nav>
+        <ul>
+          <li><a href="#"><img src="img/patita.svg" alt="Perro" />Categorías</a></li>
+          <li><a href="#"><img src="img/patita.svg" alt="Perro" />Pets</a></li>
+          <li><a href="#"><img src="img/patita.svg" alt="Perro" />Sobre nosotros</a></li>
+          <li><a href="#"><img src="img/patita.svg" alt="Perro" />Contáctenos</a></li>
+          
+          </ul>
+        </nav>
+          <div class="usuario_carrito">
+              <!-- usuario -->
+            <a href="#"><i class="fas fa-user"></i></a>
+            <!-- carrito -->
+            <a href="#"><i class="fas fa-shopping-basket"></i></a>
+          </div>   
+      </div>
+    </header>
+   
+     <!-- =============MAIN================= -->
+    <main>
+      <section >
+        <div class="tarjeta_gato">
+          <a href="#">
+          <h3>Comida de gato</h3>
+          <h4>30% de descuento</h4>
+          </a>
+        </div>
+        <div class="tarjeta_perro">
+          <a href="#">
+          <h3>Comida de perro</h3>
+          <h4>30% de descuento</h4>
+          </a>
+        </div>
+      </section>
+
+    </main>
+    <!-- =============FOOTER================= -->
+    <footer>
+      <div class="footer_principal">
+        <div>
+          <img src="img/Group.svg" alt="Logo" />
+          <h2>Suscríbete para más novedades</h2>
+        </div>
+      
+        <form action="" method="POST">
+          <label for="email"></label>
+          <input class="email" type="email" name="email" id="email" />
+
+          <input class="boton" type="submit" value="Suscribirme" />
+        </form>
+       
+      </div>
+      <div class="footer_secundario">
+        <p>Todos los derechos reservados a Flor Cadelli</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+
+
+/* =======================FORMULARIO================== */
+.mainform{
+    /* border:1px solid green; */
+    text-align: center;
+}
+.formulario{
+    /* background-color: red; */
+    /* border:1px solid red; */
+    display:inline-block;
+    margin:10px;
+    width: 35%;
+    /* border:1px solid violet; */
+}
+.formulario h2{
+    font-weight: 1000;
+    font-size: 40px;
+    text-align: start;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.formulario input{
+    border:1px solid black;
+    padding:5px 10px;
+    margin-top:15px;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+.formulario select{
+    border:1px solid black;
+    padding:5px 10px;
+    margin-top:15px;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.formulario .boton{
+    display:inline;
+    width: 30%;
+    border:none;
+    border-radius: 23px;
+}
+.formulario .gris{
+    background-color: var(--colorSombra);
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    width: 47%;
+    padding:5px 10px;
+    margin:5% 1%;
+   
+}
+.formulario .verde{
+    color:black;
+    background-color: var(--colorSecundario);
+    font-size: 18px;
+    font-weight: 500;
+    width: 47%;
+    padding:5px 10px;
+    margin:5% 1%;
+   
+}
+.formulario .verde2{
+    color:black;
+    background-color: var(--colorSecundario);
+    font-size: 18px;
+    font-weight: 500;
+    width: 97%;
+    padding:5px 10px;
+    margin:5% 1%;  
+}
+.formulario .cambioformulario{
+    /* border: 1px solid violet; */
+    margin:10px 0px 10px 0px;
+    color: var(--colorPrincipal);
+}
+.formulario .cambioformulario a{
+    text-decoration: none;
+    color:black;
+}
+.formulario textarea{
+    border:1px solid black;
+    padding:5px 10px;
+    margin-top:15px;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+

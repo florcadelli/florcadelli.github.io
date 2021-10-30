@@ -1,0 +1,86 @@
+
+
+/* =======================FORMULARIO 2================== */
+
+main .fondoformulario{
+    display:inline-block;
+    background-color: var(--colorPrincipal);
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-top:2%;
+    border-radius:30px;
+    color:white;
+    /* text-align: start; */
+}
+main .fondoformulario h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+main .fondoformulario form{
+    margin:0px 30px;
+}
+main .fondoformulario .ladoA, main .fondoformulario .ladoB{
+    display:inline-block;
+    width: 45%;
+    /* border: 1px solid red; */
+    margin: 20px 10px;
+    text-align: start;
+    height: 350px;
+}
+
+main .fondoformulario label{
+    text-align: start;
+   
+}
+main .fondoformulario .renglon{
+    display:inline-block;
+    width: 100%;
+    border-radius:5px;  
+    border:none;
+    height: 35px; 
+    margin:10px 0px;
+    padding-left: 10px;
+}
+main .fondoformulario .nombre:valid{
+    background-color: var(--colorValidacionOk);
+}
+main .fondoformulario .descripcion{
+    height: 117px;
+    padding-top: 10px;
+}
+main .fondoformulario fieldset{
+    border:none;
+    margin:10px 0px;
+    font-size: 12px; 
+}
+main .fondoformulario fieldset legend{
+    margin:5px 0px;
+    font-size: 16px; 
+}
+main .fondoformulario fieldset input{
+    margin:5px; 
+    /* padding-left: 5px; */
+}
+.formulario2 .boton{
+    display:inline;
+    /* width: 30%; */
+    border:none;
+    border-radius: 10px;
+}
+.formulario2 .verde2{
+    color:black;
+    background-color: var(--colorSecundario);
+    font-size: 24px;
+    font-weight: 600;
+    width: 50%;
+    padding:5px 10px;
+    margin:10px 0px 20px 0px; 
+    height: 50px; 
+}
+.formulario2 .verde2:hover{
+        background-color: var(--colorTerciario);
+        color:white;
+}
+/*el input de archivo no me toma las caracteristicas de los otros input"
