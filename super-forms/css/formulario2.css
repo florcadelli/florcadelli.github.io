@@ -83,4 +83,26 @@ main .fondoformulario fieldset input{
         background-color: var(--colorTerciario);
         color:white;
 }
-/*el input de archivo no me toma las caracteristicas de los otros input"
+@media screen and (max-width:768px) {
+    main .fondoformulario{
+        width: 80%;
+    }
+    main .fondoformulario h2{
+        font-size: 25px; 
+    }
+    .formulario2 .verde2{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:480px) {
+    main .fondoformulario .ladoA, main .fondoformulario .ladoB{
+        width: 80%;
+        /* border: 1px solid red; */   
+    }
+    main .fondoformulario h2{
+        font-size: 20px; 
+    }
+    .formulario2 .verde2{
+        font-size: 20px;
+    }
+}

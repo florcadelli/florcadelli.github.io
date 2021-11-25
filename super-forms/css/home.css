@@ -271,7 +271,7 @@ main section .mas{
     main{
         display:flex;
        justify-content: center;
-       background: green; 
+       /* background: green;  */
     }  
     section{
         display:flex;
