@@ -177,7 +177,7 @@ main section .tarjeta .perfil .boton:hover {
 
 @media screen and (max-width: 480px) {
   main section {
-    width: 80%;
+    width: 90%;
   }
 }
 

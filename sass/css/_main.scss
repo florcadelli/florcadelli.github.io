@@ -20,7 +20,6 @@ section{
 main section .tarjeta{ 
     width: 300px;
     /* border: 1px solid red; */
-    // margin:auto;
     border-top-left-radius: 50px;
     border-top-right-radius:50px;
     box-shadow: 2px 2px 3px rgba(151, 148, 148, 0.8);
@@ -109,9 +108,9 @@ main section .tarjeta{
 @media screen and (max-width:480px){
     main{
         section{
-            width:80%;
+            padding: 0px;
+            width:90%;
         }
     }
     
 }
- //RESP0NSIVE
