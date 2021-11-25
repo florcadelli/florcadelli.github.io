@@ -234,22 +234,14 @@ footer .footer_secundario{
 
 @media (max-width: 480px) {
   main section .tarjeta_gato{
-    background-image: url("../img/Cat-background.png");
-    background-size: 100%;
     width: 300px;
     height: 200px;
-    padding:20px;
-    display:flex;
+  
   
   }
-  main section .tarjeta_perro{
-    background-image: url("../img/Dog-background.png");
-    background-size: 100%;
-    width: 300px;
+  main section .tarjeta_perro{ 
+    width: 300px; 
     height: 200px;
-    padding:20px;
-    display:flex;
-    justify-content: flex-end;
   }
 
 }
